@@ -52,7 +52,7 @@ $(document).ready(function(){
     $("#callback").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
+			url: "callback.php",
 			data: $("#callback").serialize()
 		}).done(function() {
             $('.modal_callback .wp_callback').fadeOut();
@@ -66,7 +66,7 @@ $(document).ready(function(){
     $("#write").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail1.php",
+			url: "write.php",
 			data: $("#write").serialize()
 		}).done(function() {
             $('.modal_callback .wp_write').fadeOut();
