@@ -3,7 +3,7 @@
 		margin: 0 10px;
 	}
 	.wrap-menu .left {
-		min-width: 38%;
+		min-width: 30%;
 	}	
 }
 
@@ -32,7 +32,7 @@
 		display: none;
 	}	
 	.wrap-menu .left {
-		min-width: auto;
+		min-width: 20%;
 	}
 	
 	/*********************/
@@ -87,6 +87,29 @@
 }
 
 @media only screen and ( max-width:1030px ){
+	.contacts_block .right {
+		width: 100%;
+		height: 500px;
+		margin-top: 15px;
+	}	
+	#map {
+		width: 105%;
+		height: 500px;
+		margin-left: -20px;
+	}	
+	.contacts_block .item_wr{
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+	.contacts_block .left {
+		max-width: 100%;
+		width: 100%;
+	}	
+	.contacts_block
+	body .wrap-menu .left {
+		min-width: 100px;
+	}	
 	.we_buying ul li{
 		width: 33.33%;
 	}
@@ -331,6 +354,22 @@
 }
 
 @media only screen and ( max-width:720px ){
+	.contacts_block .item_wr{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+	.contacts_block .right {
+		width: 100%;
+		height: 400px;
+		margin-top: 15px;
+		margin-bottom: 60px;
+	}	
+	#map {
+		width: 115%;
+		height: 400px;
+		margin-left: -20px;
+	}	
 	.your_cost p{
 		width: 100%;
 		margin-bottom: 25px;
@@ -697,3 +736,87 @@
 		height: 360px;
 	}
 }
+@media only screen and ( max-width:1200px ){
+	.nav-menu li em{
+		margin: 0 10px;
+	}
+	.wrap-menu .left {
+		min-width: 38%;
+	}	
+}
+@media only screen and ( max-width:1100px ){
+	.wrap-menu .left {
+		min-width: auto;
+	}	
+}
+@media only screen and ( max-width:935px ){
+	.wrapper {
+		padding-bottom: 370px;
+	} 	
+	.wrapper.foot_in{
+		padding-bottom: 0px;
+	}	
+}
+@media only screen and ( max-width:935px ){
+	.wrapper {
+		padding-bottom: 450px;
+	} 	
+	.wrapper.foot_in{
+		padding-bottom: 0px;
+	}	
+	.new_block .image {
+	}
+
+	.new_block .date {
+		margin-bottom: 20px;
+	}
+	.new_block h3 {
+		font-size: 34px;
+		margin-bottom: 20px;	
+	}
+	.new_block .wrap-see{
+		margin-left: 45px;
+	}
+	.new_block h2{
+		font-size: 34px;
+		line-height: 38px;
+	}
+	.new_block p{
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.new_block p a{
+		font-size: 18px;
+	}
+	.new_block .image > img{
+		position: relative;
+		left: -50%;
+	}
+}
+@media only screen and ( max-width:480px ){
+	.wrapper {
+		padding-bottom: 610px;
+	}
+	.new_block .image > img{
+		position: relative;
+		left: -100%;
+	}	
+	.new_block h3 {
+		font-size: 28px;
+		margin-bottom: 20px;	
+	}
+	.new_block .wrap-see{
+		margin-left: 40px;
+	}
+	.new_block h2{
+		font-size: 30px;
+		line-height: 32px;
+	}	
+	.new_block p{
+		font-size: 16px;
+		margin-bottom: 30px;
+	}	
+	.new_block p a{
+		font-size: 16px;
+	}	
+} 
