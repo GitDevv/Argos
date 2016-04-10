@@ -3,7 +3,7 @@
 		margin: 0 10px;
 	}
 	.wrap-menu .left {
-		min-width: 38%;
+		min-width: 30%;
 	}	
 }
 
@@ -32,7 +32,7 @@
 		display: none;
 	}	
 	.wrap-menu .left {
-		min-width: auto;
+		min-width: 20%;
 	}
 	
 	/*********************/
@@ -87,6 +87,29 @@
 }
 
 @media only screen and ( max-width:1030px ){
+	.contacts_block .right {
+		width: 100%;
+		height: 500px;
+		margin-top: 15px;
+	}	
+	#map {
+		width: 105%;
+		height: 500px;
+		margin-left: -20px;
+	}	
+	.contacts_block .item_wr{
+		display: inline-block;
+		vertical-align: top;
+		width: 50%;
+	}
+	.contacts_block .left {
+		max-width: 100%;
+		width: 100%;
+	}	
+	.contacts_block
+	body .wrap-menu .left {
+		min-width: 100px;
+	}	
 	.we_buying ul li{
 		width: 33.33%;
 	}
@@ -116,6 +139,35 @@
 	.bottom_footer .item {
 		margin-bottom: 20px;
 	}
+ 
+	.new_block.o-companii .onas p{
+		float: left;
+		width: 75%;
+	}
+	.new_block.o-companii .onas h3 {
+		font-size: 18px;
+	}
+	.new_block.o-companii   p {
+		font-size: 18px;
+	}
+ 
+	.new_block.o-companii .wrap-info h3 {
+		font-size: 30px
+	}
+	.new_block.o-companii .wrap-info h5 {
+		font-size: 18px;	
+	}
+ 
+	.new_block.o-companii  .item:nth-child(2),
+	.new_block.o-companii  .item:nth-child(3){
+		float: left;
+		width: 100%;
+	}
+
+ 
+	.new_block.o-companii .item p {
+		width: 80%;
+	}	
 }
 
 @media only screen and ( max-width:900px ){
@@ -275,12 +327,15 @@
 			margin-top: 20px;
 	}	
 	/****************************/
+	.top-slider .image img{
+		height: 600px;
+	}
 	.top-slider  .content{
 		width: 100%;
-		margin-top: 100px;
-		position: relative;
+		margin-top: 110px;
+
 		z-index: 1000;
-		padding-top:100px;
+		padding-top:120px;
 	}
 	.top-slider  .content h1{
 		font-size: 28px;
@@ -303,9 +358,75 @@
 	.your_cost{
 		padding:50px 40px;
 	}	
+ 
+ 
+	.geo.container.mail_send h3 {
+		font-size: 32px;
+		margin-bottom: 40px;
+	}
+	.geo.container.mail_send   h4 {
+		font-size: 20px;	
+	}
+	.geo.container.mail_send  p.addres span{
+		font-size: 18px;
+		width: 85%;
+	}
+	.geo.container.mail_send  .wp_it {
+		width: 100%;
+	}
+	.geo.container.mail_send  .wp_it h4 {
+		font-size: 18px;
+	}
+	.geo.container.mail_send .wp_it .item p {
+		width: 78%;
+	}
+
+	.mail_send .ps p {
+		font-size: 16px;
+		font-family: "ProximaNovaReg";
+		font-style: italic;
+		color: #393e46;
+		float: left;
+		width: 80%;
+	}
+	.mail_send .ps b {
+		font-family: "ProximaNovaBold";	
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+	.mail_send .left {
+		font-size: 150px;
+		font-family: "ProximaNova-Light";
+		line-height: 114px;
+		float: left;
+		width: 65px;
+	}
+	.mail_send .download {
+		margin-bottom: 20px;
+		margin-top: 35px;
+	}
+	.mail_send a {
+		margin-bottom: 25px;
+		display: inline-table;
+		max-width: 480px;
+		width: 100%;
+
+	}
+	.mail_send a span{
+		font-size: 18px;
+	}
+	.mail_send a:first-child{
+		margin-right: 0;
+	} 
 }
 
 @media only screen and ( max-width:750px ){
+	.new_block.o-companii .onas p{
+		width: 100%;
+	}	
+	.new_block.o-companii .onas h3 {
+		width: 100%;
+	}	
 	.work_inner .items_buy{
 		max-width: 38%;
 		min-width: 160px;
@@ -331,6 +452,39 @@
 }
 
 @media only screen and ( max-width:720px ){
+	.top-slider .content a {
+		max-width: 205px;
+		height: 40px;
+		font-size: 14px;
+		line-height: 40px;
+	}	
+	.top-slider .content h1{
+		letter-spacing: 5px;
+	}
+	.new_block.o-companii .item p ,
+	.new_block.o-companii  .item:nth-child(2) p,
+	.new_block.o-companii  .item:nth-child(3) p{
+		width: 70%;
+	}	
+	.new_block.o-companii   p {
+		font-size: 16px;
+	}	
+	.contacts_block .item_wr{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+	.contacts_block .right {
+		width: 100%;
+		height: 400px;
+		margin-top: 15px;
+		margin-bottom: 60px;
+	}	
+	#map {
+		width: 115%;
+		height: 400px;
+		margin-left: -20px;
+	}	
 	.your_cost p{
 		width: 100%;
 		margin-bottom: 25px;
@@ -403,6 +557,18 @@
 		height: 48px;
 		border-width: 2px;
 	}	
+	
+	/***/
+	.new_block.law_person h2{
+		font-size: 30px;
+	}
+	.new_block.law_person .item {
+		width: 50%!important;
+	}
+
+	.law_person h6 {
+		font-size: 18px;
+	}	
 
 }
 
@@ -448,6 +614,16 @@
 }
 
 @media only screen and ( max-width:480px ){
+	.new_block.law_person h2{
+		font-size: 28px;
+	}
+	.new_block.law_person .item {
+		width: 100%!important;
+		margin-top: 0;
+	}	
+	.mail_send a span{
+		font-size: 14px;
+	}	
 	/****************************/
 	.top-slider  .content{
 		width: 100%;
@@ -697,3 +873,87 @@
 		height: 360px;
 	}
 }
+@media only screen and ( max-width:1200px ){
+	.nav-menu li em{
+		margin: 0 10px;
+	}
+	.wrap-menu .left {
+		min-width: 38%;
+	}	
+}
+@media only screen and ( max-width:1100px ){
+	.wrap-menu .left {
+		min-width: auto;
+	}	
+}
+@media only screen and ( max-width:935px ){
+	.wrapper {
+		padding-bottom: 370px;
+	} 	
+	.wrapper.foot_in{
+		padding-bottom: 0px;
+	}	
+}
+@media only screen and ( max-width:935px ){
+	.wrapper {
+		padding-bottom: 450px;
+	} 	
+	.wrapper.foot_in{
+		padding-bottom: 0px;
+	}	
+	.new_block .image {
+	}
+
+	.new_block .date {
+		margin-bottom: 20px;
+	}
+	.new_block h3 {
+		font-size: 34px;
+		margin-bottom: 20px;	
+	}
+	.new_block .wrap-see{
+		margin-left: 45px;
+	}
+	.new_block h2{
+		font-size: 34px;
+		line-height: 38px;
+	}
+	.new_block p{
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	.new_block p a{
+		font-size: 18px;
+	}
+	.new_block .image > img{
+		position: relative;
+		left: -50%;
+	}
+}
+@media only screen and ( max-width:480px ){
+	.wrapper {
+		padding-bottom: 610px;
+	}
+	.new_block .image > img{
+		position: relative;
+		left: -100%;
+	}	
+	.new_block h3 {
+		font-size: 28px;
+		margin-bottom: 20px;	
+	}
+	.new_block .wrap-see{
+		margin-left: 40px;
+	}
+	.new_block h2{
+		font-size: 30px;
+		line-height: 32px;
+	}	
+	.new_block p{
+		font-size: 16px;
+		margin-bottom: 30px;
+	}	
+	.new_block p a{
+		font-size: 16px;
+	}	
+} 
