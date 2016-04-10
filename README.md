@@ -1,7 +1,10 @@
 # ARGOS
 
 <i> <b>Links to pages: </b> </i> <br>
-[Home](http://freet.esy.es/ARGOS/) <br>
-[Work-inner](http://freet.esy.es/ARGOS/work.inner.html) <br>
-[Contacts](http://freet.esy.es/ARGOS/Contacts.html) <br>
-[News](http://freet.esy.es/ARGOS/new-details..html) 
+[Home](http://argos.studiowhitefox.com/) <br>
+[Catalog](http://argos.studiowhitefox.com/category/catalog/) <br>
+[About us](http://argos.studiowhitefox.com/o-nas/) <br>
+[Law person](http://argos.studiowhitefox.com/yuridicheskim-litsam/) <br>
+[Mail send](http://argos.studiowhitefox.com/pochtovyie-otpravleniya/) <br>
+[Contacts](http://argos.studiowhitefox.com/kontaktyi/) <br>
+[New](http://argos.studiowhitefox.com/news/novost/) 
