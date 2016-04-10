@@ -55,7 +55,10 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 }
+<<<<<<< HEAD
 html,
+=======
+>>>>>>> 1a83d0f2bcc3b16182e5e53ccc3c9ea726d58347
 body{
 	overflow-x: hidden;
 }
@@ -1103,6 +1106,7 @@ input::-moz-placeholder{
 	color: #393e46;
 	text-decoration: none;
 }
+<<<<<<< HEAD
 .nav_page li:last-child  a{
 	font-size: 14px;
 	font-family: "ProximaNovaReg";
@@ -1110,12 +1114,19 @@ input::-moz-placeholder{
 	list-style: none;
 	display: inline-block;
 }
+=======
+>>>>>>> 1a83d0f2bcc3b16182e5e53ccc3c9ea726d58347
 .nav_page li{
 	font-size: 14px;
 	font-family: "ProximaNovaReg";
 	color: #47a771;
 	list-style: none;
 	display: inline-block;
+<<<<<<< HEAD
+=======
+	margin-right: 8px;
+
+>>>>>>> 1a83d0f2bcc3b16182e5e53ccc3c9ea726d58347
 }
  
 
@@ -1209,6 +1220,7 @@ input::-moz-placeholder{
 	border-bottom: 1px solid #e6e6e6;
 	border-right: 1px solid #e6e6e6;
 }
+<<<<<<< HEAD
 .items_tovar .info_p p{
 	font-size: 18px;
 	color: #393e46;
@@ -1216,6 +1228,24 @@ input::-moz-placeholder{
 	padding: 0 20px;
 	margin: 10px 0 25px;
 } 
+=======
+/*
+
+.items_tovar li:nth-child(2n) .info_tovar{
+	border-left: 0px ;
+}
+.items_tovar li:nth-child(4n) .info_tovar{
+	border-left: 1px solid #e6e6e6;
+}
+.items_tovar li:nth-child(6n) .info_tovar{
+	border-right: 1px solid #e6e6e6;
+}
+.items_tovar li:nth-child(2n) .title,
+.items_tovar li:nth-child(2n) .column{
+	border-right: 0px ;
+}
+*/
+>>>>>>> 1a83d0f2bcc3b16182e5e53ccc3c9ea726d58347
 .items_tovar li .title{
 	border-bottom: 1px solid #e6e6e6;
 	padding: 12px 20px;
@@ -1451,6 +1481,7 @@ ul.nav_footer li a:hover{
 	visibility: visible;
 }
 .nav-menu li:last-child em{
+<<<<<<< HEAD
 	display: none;
 }
 .nav_page em{
@@ -1945,4 +1976,14 @@ display: inline-block;
 	margin: 20px 0 10px;
     font-family: "ProximaNovaReg";	
 	color: #32c77f;
+=======
+ display: none;
+}
+ .nav_page em{
+ font-size: 15px;
+ color: #393e46;
+ text-decoration: none;
+ margin:0 4px;
+ font-family: "ProximaNovaReg";
+>>>>>>> 1a83d0f2bcc3b16182e5e53ccc3c9ea726d58347
 }
